@@ -5,10 +5,10 @@
 สำหรับในงานนี้จะแสดง Customer Journey ของโรงพยาบาล
 
 ## แสดง Customer Journery ของโรงพยาบาล
-![customer_journey](./images/customer_journey.png)
+![customer_journey](./customer_journey.png)
 
 ## เทคนิคที่ใช้ในการวิเคราะห์ข้อมูล ​Customer Journey
-![data_analytic](./images/data_analytic.png)
+![data_analytic](./data_analytic.png)
 
 ## การเก็บข้อมูลที่ทำมาวิเคราะห์
-![data_collecting](./images/data_collecting.png)
+![data_collecting](./data_collecting.png)
