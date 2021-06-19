@@ -1,9 +1,15 @@
 # Homework 02 - Jobs to be done
 
 ## รายละเอียด
-เป็นการตั้งเป้าหมายสิ่งที่เราต้องการที่จะทำ ซึ่งมีข้อความเป้าหมายที่ตั้ง (Job Statement) จะมีรูปแบบประกอบด้วย 3 ส่วนคือ Verb ตามด้วย Object of Control และปิดท้ายด้วย Context ตัวอย่างเช่น Listen + to music + in my home เป็นต้น จากนั้นให้หาผลลัพธ์ที่ต้องการในด้าน Function ด้าน Emotion และด้าน Social ซึ่ง Job to be Done ที่ได้นั้นก็จะแสดงดังรูป
+เป็นการตั้งเป้าหมายสิ่งที่เราต้องการที่จะทำ ซึ่งรูปแบบของข้อความเป้าหมาย (Job Statement) จะมีประกอบด้วย 3 ส่วนคือ Verb ตามด้วย Object of Control และปิดท้ายด้วย Context ตัวอย่างเช่น <br>
+Listen + to music + in my home เป็นต้น <br>
+จากนั้นให้หาผลลัพธ์ที่ต้องการใน 3 ด้านคือ 
+- ด้าน Functional Job 
+- ด้าน Emotional Job และ
+- ด้าน Social Job
 
-## ลักษณะของข้อมูลที่นำมาใช้ในการวิเคราะห์
+## Job to be Done
+Job to be Done ที่ได้นั้นก็จะแสดงดังรูป <br>
 ![job_to_be_done](./job_to_be_done.png)
 
 ## ความเชื่อมโยง
