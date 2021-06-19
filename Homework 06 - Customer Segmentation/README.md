@@ -1,0 +1,50 @@
+# Homework 06 - Customer Segmentation
+
+## รายละเอียด
+เป็นการนำเอาข้อมูลการซื้อสินค้าของลูกค้ามาทำการแบ่งกลุ่มโดยใช้ Tool อีกตัวหนึ่งคือ Google BigQuery ML
+
+## ลักษณะของข้อมูลที่นำมาใช้ในการวิเคราะห์
+ข้อมูลที่นำมาวิเคราะห์เป็นข้อมูลของ Dumhumby
+![dataset](./images/1_dataset.png)
+
+แหล่งข้อมูล
+![แหล่งข้อมูล](https://www.dunnhumby.com/source-files)
+
+## Customer Single View
+นำข้อมูลที่ได้มาสร้างเป็นชุดข้อมูล Customer Single View ซึ่งก็คือรวมข้อมูลทุกอย่างของลูกค้าคนเดียวกันให้อยู่ใน 1 แถว ประโยชน์เพื่อง่ายต่อการวิเคราะห์ข้อมูล การประมวลผลจะใช้ Google BigQuery ซึ่ง Google BigQuery เป็นแพลตฟอร์มหนึ่งที่เหมาะสำหรับการวิเคราะห์ข้อมูลโดยเฉพาะข้อมูลที่มีปริมาณมากๆ Database ของ Google BigQuery จะเป็น Columnar Storage จึงทำให้สามารถประมวลผลข้อมูลจำนวนมากๆ ได้อย่างรวดเร็ว
+
+​​SQL ที่ใช้ในการประมวลผลสร้าง Customer Single View เป็นดังนี้
+![customer_single_view_sql](./images/2_customer_single_view_sql.png)
+
+## ลักษณะข้อมูล Customer Single View
+![customer_single_view_data](./images/3_customer_single_view_data.png)
+
+## EDA ข้อมูล ​Customer Single View
+เมื่อนำข้อมูลมาทำการจัดกลุ่มตามจำนวน Total Visit พบว่ามีลูกค้าจำนวนมากที่มี Total Visit เพียงแค่ 1 ครั้งเท่านั้น ดั่งนั้นจะทำแยกข้อมูลออกเป็น 2 ชุด คือชุดข้อมูลที่มี Total Visit เพียงแค่ครั้งเดียว และชุดข้อมูลที่มี Total Visit มากกว่า 1 ครั้ง
+![total_visit](./images/4_total_visit.png)
+
+## ทำการหาจำนวน ​Cluster ที่เหมาะสมของลูกค้าที่มี Total Visit เพียงแค่ 1 ครั้ง
+พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่ม
+![single_visit_cluster](./images/5_single_visit_cluster.png)
+
+## ทำการหาจำนวน ​Cluster ที่เหมาะสมของลูกค้าที่มี Total Visit มากกว่า 1 ครั้ง
+พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่มเช่นกัน
+![more_visit_cluster](./images/6_more_visit_cluster.png)
+
+## ทำการแบ่งกลุ่มโดยใช้ Google BigQuery ML
+script ที่ใช้ในการประมวลผลการแบ่งกลุ่มด้วย Google BigQuery ML แสดงดังรูป
+![bigquery_ml](./images/7_bigquery_ml.png)
+
+
+## ผลลัพธ์ที่ได้จากการแบ่งกลุ่มของ More Visit Customer
+![more_visit_result](./images/9_more_visit_result.png)
+
+
+## การตีความ
+![interpret_result](./images/10_interpret_result.png)
+
+## ความเชื่อมโยง
+ข้อมูลที่ได้จากการทำ Customer Segmentation จะถูกนำไปใช้ร่วมในงาน CLV Dashboard
+- [x] Homework 05 - CLV Dashboard
+(../Homework%2005%20-%20CLV%20Dashboard)
+
