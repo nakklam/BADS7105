@@ -22,7 +22,7 @@ c) Monetary : มูลค่าในการซื้อสินค้่า
 [![Campaign Response Model Youtube Link](https://img.youtube.com/vi/VRvBBBdR_Yg/0.jpg)](https://www.youtube.com/watch?v=VRvBBBdR_Yg)
 
 ## 1. ลักษณะของข้อมูลที่ใช้ในการสร้าง Model
-ข้อมูลจะมี 2 ชุด
+ข้อมูลที่นำมาใช้ในการสร้างโมเดลจะมีด้วยกัน 2 ชุดดังนี้
 1. เป็นข้อมูลการซื้อสินค้าของลูกค้า
 
 ![transaction_data](./images/1_transaction_data.png)
@@ -31,7 +31,8 @@ c) Monetary : มูลค่าในการซื้อสินค้่า
 
 ![campaign](./images/2_campaign.png)
 
-เมื่อดูลักษณะข้อมูลการตอบรับเคมเปญของลูกค้าก็จะพบว่าข้อมูลมีลักษณะเป็น Imbalanced Dataset
+เมื่อนำข้อมูลในชุดที่ 2 มา EDA เพื่อดูลักษณะการตอบรับเคมเปญของลูกค้าก็จะพบว่าข้อมูลมีลักษณะของข้อมูลเป็นแบบ Imbalanced Dataset เนื่องจากมีจำนวนข้อมูลที่ระบุว่าไม่ตอบรับ Campaign (0) สูงกว่าจำนวนข้อมูลที่ระบุว่าตอบรับ Campaign ดังนั้นเพื่อไม่ให้ผลการเรียนรู้ของโมเดลถูกโน้มน้าวไปทางไม่ตอบรับ Campaign จึงจำเป็นจะต้องมีการจัดการปัญหา Imbalanced Dataset เหล่านี้ซึ่งในงานนี้จะแก้ปัญหาโดยใช้ ​SMOTE ลักษณะของข้อมูล ​Imabalanced Dataset แสดงดังรูป
+
 ![imbalance_dataset](./images/3_imbalance_dataset.png)
 
 ## 2. การทำนายครั้งแรก
