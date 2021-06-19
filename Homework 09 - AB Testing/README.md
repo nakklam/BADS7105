@@ -17,7 +17,7 @@
 
 ![question](./images/1_question.png)
 
-โดยให้ตอบคำถามในเป็นแบบ Likert scale 1-5 ซึ่งแต่ละค่ามีความหมายดังรูป
+สำหรับชุดคำตอบที่ให้ตอบนั้นจะทีลักษณะ Likert scale ที่มีค่าตั้งแต่ 1-5 ซึ่งแต่ละค่ามีความหมายดังรูป
 
 ![answer](./images/2_answer.png)
 
@@ -27,11 +27,15 @@
 ![3_dataset](./images/3_dataset.png)
 
 ## ทดสอบ Normality Test 
-เนื่องจากจะทำการทดสอบสมมุติฐานโดยใช้ Paired t-test ซึ่งจะทำได้ข้อมูลต้องมีคุณลักษณะ 2 อย่างคือมีการกระจายตัวเป็นแบบ Gaussian Distribution และข้อมูลเป็น iid หรือการกระจายตัวมีความเป็นอิสระต่อกัน ซึ่งผลการทำสอบ Normality Test พบว่าผลที่ได้คือการกระจายตัวไม่เป็น Gaussian Distribution <br>
+เนื่องจากจะทำการทดสอบสมมุติฐานโดยใช้ Paired t-test นั้นจะมีข้อกำหนดว่าข้อมูลที่นำมาวิเคราะห์จะต้องมีคุณลักษณะ 2 อย่างคือ
+1. มีการกระจายตัวเป็นแบบ Gaussian Distribution และ
+2. ข้อมูลเป็น iid หรือการกระจายตัวมีความเป็นอิสระต่อกัน <br>
+
+ซึ่งผลการทำสอบ Normality Test พบว่าผลที่ได้คือการกระจายตัวไม่เป็น Gaussian Distribution แสดงดังรูป <br>
 ![4_normality_test](./images/4_normality_test.png)
 
 ## ทดสอบ Correlation Test ด้วย Pearson's Correlation Coefficient
-พบว่ากลุ่มตัวยอย่างทั้ง 2 กลุ่มมีความเป็นอิสระต่อกัน <br>
+เมื่อวิเคราะห์ ​​​Correlation พบว่ากลุ่มตัวยอย่างทั้ง 2 กลุ่มมีความเป็นอิสระต่อกัน <br>
 ![5_correlation_test](./images/5_correlation_test.png)
 
 ## ผลการทดสอบ A/B Testing
