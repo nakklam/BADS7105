@@ -17,16 +17,18 @@ c) Monetary : มูลค่าในการซื้อสินค้่า
 
 
 ## วิดีโออธิบายการทำงานของ Campaign Response Model
-ได้มีการทำวิดีโอเพิ่มอธิบายการสร้าง ​Campaign Response Model ไว้ สามารถเข้าไปดูวิดีโอได้ที่ลิงค์ข้างล่าง
+ได้มีการทำวิดีโอเพิ่มอธิบายรายละเอียดการสร้าง ​Campaign Response Model ไว้ สามารถเข้าไปดูวิดีโอได้ที่ลิงค์ข้างล่าง
 
 [![Campaign Response Model Youtube Link](https://img.youtube.com/vi/VRvBBBdR_Yg/0.jpg)](https://www.youtube.com/watch?v=VRvBBBdR_Yg)
 
 ## 1. ลักษณะของข้อมูลที่ใช้ในการสร้าง Model
 ข้อมูลจะมี 2 ชุด
-a) ข้อมูลชุดแรกเป็นข้อมูลการซื้อสินค้าของลูกค้า
+1. เป็นข้อมูลการซื้อสินค้าของลูกค้า
+
 ![transaction_data](./images/1_transaction_data.png)
 
-b) เป็นข้อมูลการตอบรับเคมเปญของลูกค้า
+2. เป็นข้อมูลการตอบรับเคมเปญของลูกค้า
+
 ![campaign](./images/2_campaign.png)
 
 เมื่อดูลักษณะข้อมูลการตอบรับเคมเปญของลูกค้าก็จะพบว่าข้อมูลมีลักษณะเป็น Imbalanced Dataset
