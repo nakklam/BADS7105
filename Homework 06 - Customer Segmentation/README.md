@@ -11,7 +11,8 @@
 - [x] [แหล่งข้อมูลของ Supermarket ที่นำใช้ในการวิเคราะห์](https://www.dunnhumby.com/source-files)
 
 ## Customer Single View
-นำข้อมูลที่ได้มาสร้างเป็นชุดข้อมูล Customer Single View ซึ่งก็คือรวมข้อมูลทุกอย่างของลูกค้าคนเดียวกันให้อยู่ใน 1 แถว ประโยชน์เพื่อง่ายต่อการวิเคราะห์ข้อมูล การประมวลผลจะใช้ Google BigQuery ซึ่ง Google BigQuery เป็นแพลตฟอร์มหนึ่งที่เหมาะสำหรับการวิเคราะห์ข้อมูลโดยเฉพาะข้อมูลที่มีปริมาณมากๆ Database ของ Google BigQuery จะเป็น Columnar Storage จึงทำให้สามารถประมวลผลข้อมูลจำนวนมากๆ ได้อย่างรวดเร็ว
+ข้อมูล Suppermarket จะถูกนำมาแปลงให้ข้อมูลมีลักษณะที่เรียกว่า Customer Single View ซึ่ง Customer Single View ก็คือรวมข้อมูลทุกอย่างของลูกค้าคนเดียวกันให้อยู่ใน 1 แถว ประโยชน์เพื่อง่ายต่อการวิเคราะห์ข้อมูล <br>
+การสร้าง ​Customer Single View จะด้วยภาษา ​​SQL และทำการประมวลผลใช้ Google BigQuery สำหรับ Google BigQuery นั้นคือแพลตฟอร์มหนึ่งที่เหมาะสำหรับการวิเคราะห์ข้อมูลที่มีปริมาณมากๆ เพราะ Database ของ Google BigQuery จะมีคุณสมบัติเป็น Columnar Storage จึงทำให้การประมวลผลข้อมูลจำนวนมากๆ สามารถทำได้อย่างรวดเร็ว
 
 ​​SQL ที่ใช้ในการประมวลผลสร้าง Customer Single View เป็นดังนี้
 
@@ -21,15 +22,17 @@
 ![customer_single_view_data](./images/3_customer_single_view_data.png)
 
 ## EDA ข้อมูล ​Customer Single View
-เมื่อนำข้อมูลมาทำการจัดกลุ่มตามจำนวน Total Visit พบว่ามีลูกค้าจำนวนมากที่มี Total Visit เพียงแค่ 1 ครั้งเท่านั้น ดั่งนั้นจะทำแยกข้อมูลออกเป็น 2 ชุด คือชุดข้อมูลที่มี Total Visit เพียงแค่ครั้งเดียว และชุดข้อมูลที่มี Total Visit มากกว่า 1 ครั้ง
+เมื่อนำข้อมูลมาทำการจัดกลุ่มตามจำนวน Total Visit พบว่ามีลูกค้าจำนวนมากที่มี Total Visit เพียงแค่ 1 ครั้งเท่านั้น ดั่งนั้นจะทำแยกข้อมูลออกเป็น 2 ชุด คือ
+- ชุดข้อมูลที่มี Total Visit เพียงแค่ครั้งเดียว และ
+- ชุดข้อมูลที่มี Total Visit มากกว่า 1 ครั้ง <br>
 ![total_visit](./images/4_total_visit.png)
 
 ## ทำการหาจำนวน ​Cluster ที่เหมาะสมของลูกค้าที่มี Total Visit เพียงแค่ 1 ครั้ง
-พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่ม
+พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่มแสดงดังรูป
 ![single_visit_cluster](./images/5_single_visit_cluster.png)
 
 ## ทำการหาจำนวน ​Cluster ที่เหมาะสมของลูกค้าที่มี Total Visit มากกว่า 1 ครั้ง
-พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่มเช่นกัน
+พบว่าจำนวน ​Cluster ที่เหมาะสมคือ 4 กลุ่มเช่นกัน แสดงดังรูป
 ![more_visit_cluster](./images/6_more_visit_cluster.png)
 
 ## ทำการแบ่งกลุ่มโดยใช้ Google BigQuery ML
