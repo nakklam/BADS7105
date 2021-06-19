@@ -9,8 +9,6 @@
 ![value_proposition_canvas](./value_proposition_canvas.png)
 
 ## งานนี้เป็นงานภาคต่องจาก 2 งานข้างล่างคือ
-- [x] Homework 02 - Jobs%20to%20be%20done
-(./Homework%2002%20-%20Jobs%20to%20be%20done)
+- [x] [Homework 02 - Jobs to be done](../Homework%2002%20-%20Jobs%20to%20be%20done)
 
-- [x] Homework 12 - Design Thinking
-(./Homework%2012%20-%20Design%20Thinking)
+- [x] [Homework 12 - Design Thinking](../Homework%2012%20-%20Design%20Thinking)

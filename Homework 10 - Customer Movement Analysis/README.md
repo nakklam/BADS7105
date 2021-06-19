@@ -16,5 +16,4 @@
 
 ## ความเชื่อมโยง
 ข้อมูลที่ได้จากการทำ Customer Movement Analysis จะถูกนำไปใช้ร่วมในงาน CLV Dashboard
-- [x] Homework 05 - CLV Dashboard
-(../Homework%2005%20-%20CLV%20Dashboard)
+- [x] [Homework 05 - CLV Dashboard](../Homework%2005%20-%20CLV%20Dashboard)

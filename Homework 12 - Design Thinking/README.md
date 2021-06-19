@@ -27,8 +27,6 @@ Design Thinking เป็นกระบวนการหนึ่งที่�
 ![job_to_be_done](./5_test.png)
 
 ## งานนี้เชื่อมโยงกับ 2 งานข้างต้นคือ
-- [x] Homework 02 - Jobs%20to%20be%20done
-(../Homework%2002%20-%20Jobs%20to%20be%20done)
+- [x] [Homework 02 - Jobs%20to%20be%20done](../Homework%2002%20-%20Jobs%20to%20be%20done)
 
-- [x] Homework 03 - Value Proposition
-(../Homework%2003%20-%20Value%20Proposition)
+- [x] [Homework 03 - Value Proposition](../Homework%2003%20-%20Value%20Proposition)

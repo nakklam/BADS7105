@@ -11,8 +11,6 @@
 ใน Homework ที่ 3 ต้องการที่จะโยงให้เห็นว่าสาเหตุที่เราต้องการทำ Job นี้ให้สำเร็จ เพราะเรามี Pain และมี Gain อะไร และเราจะหา Product อะไรที่จะทำให้เรา Gain สิ่งที่เราต้องการ และทำให้ Pain ที่เกิดขึ้นหายไป
 ใน Homework ที่ 12 ก็จะเป็นการคิดภาคต่อของ Homework ที่ 3 ว่าเราจะสร้าง Product นั้นให้เป็นรูปเป็นร่างได้ได้อย่างไร โดยนำหลักการของ ​Design Thinking มาใช้
 
-- [x] Homework 03 - Value Proposition
-(./Homework%2003%20-%20Value%20Proposition)
+- [x] [Homework 03 - Value Proposition](../Homework%2003%20-%20Value%20Proposition)
 
-- [x] Homework 12 - Design Thinking
-(./Homework%2012%20-%20Design%20Thinking)
+- [x] [Homework 12 - Design Thinking](../Homework%2012%20-%20Design%20Thinking)

@@ -11,8 +11,6 @@
 
 
 ## ความเชื่อมโยง
-- [x] Homework 06 - Customer Segmentation
-(../Homework%2006%20-%20Value%20Segmentation)
+- [x] [Homework 06 - Customer Segmentation](../Homework%2006%20-%20Value%20Segmentation)
 
-- [x] Homework 10 - Customer Movement Analysis
-(../Homework%2010%20-%20Customer%20Movement%20Analysis)
+- [x] [Homework 10 - Customer Movement Analysis](../Homework%2010%20-%20Customer%20Movement%20Analysis)
