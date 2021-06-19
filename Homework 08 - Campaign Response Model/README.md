@@ -17,7 +17,7 @@ c) Monetary : มูลค่าในการซื้อสินค้่า
 
 
 ## วิดีโออธิบายการทำงานของ Campaign Response Model
-ได้เลือกงานนี้เพื่อทำเป็นวิดีโออธิบายการทำงาน สำหรับวิดีโอสามารถเข้าไปดูได้ที่ลิงค์ข้างล่าง
+ได้มีการทำวิดีโอเพิ่มอธิบายการสร้าง ​Campaign Response Model ไว้ สามารถเข้าไปดูวิดีโอได้ที่ลิงค์ข้างล่าง
 
 [![Campaign Response Model Youtube Link](https://img.youtube.com/vi/VRvBBBdR_Yg/0.jpg)](https://www.youtube.com/watch?v=VRvBBBdR_Yg)
 
