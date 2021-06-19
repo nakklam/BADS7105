@@ -8,7 +8,7 @@
 ![dataset](./images/1_dataset.png)
 
 
-- [x] [แหล่งข้อมูล](https://www.dunnhumby.com/source-files)
+- [x] [แหล่งข้อมูลของ Supermarket ที่นำใช้ในการวิเคราะห์](https://www.dunnhumby.com/source-files)
 
 ## Customer Single View
 นำข้อมูลที่ได้มาสร้างเป็นชุดข้อมูล Customer Single View ซึ่งก็คือรวมข้อมูลทุกอย่างของลูกค้าคนเดียวกันให้อยู่ใน 1 แถว ประโยชน์เพื่อง่ายต่อการวิเคราะห์ข้อมูล การประมวลผลจะใช้ Google BigQuery ซึ่ง Google BigQuery เป็นแพลตฟอร์มหนึ่งที่เหมาะสำหรับการวิเคราะห์ข้อมูลโดยเฉพาะข้อมูลที่มีปริมาณมากๆ Database ของ Google BigQuery จะเป็น Columnar Storage จึงทำให้สามารถประมวลผลข้อมูลจำนวนมากๆ ได้อย่างรวดเร็ว
