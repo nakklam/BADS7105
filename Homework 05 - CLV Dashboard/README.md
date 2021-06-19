@@ -1,7 +1,7 @@
 # Homework 05 - CLV Dashboard
 
 ## รายละเอียด
-งานนี้ภาคต่อเนื่องของงาน Customer Segmentation และงาน Customer Movement Analysis โดยงานนี้จะนำข้อมูลที่ได้จากงานทั้ง 2 ดังกล่าว เพื่อที่จะแสดงผลเป็น Dashboard โดยเครื่องมือที่ใช้การสร้าง Dashboard คือTableau
+งานนี้เป็นงานที่ต่อเนื่องของงาน Customer Segmentation และงาน Customer Movement Analysis โดยงานนี้จะนำข้อมูลที่ได้จากงานทั้ง 2 ดังกล่าว เพื่อที่จะแสดงผลเป็น Dashboard โดยเครื่องมือที่ใช้การสร้าง Dashboard คือTableau
 
 ## Dashboard ที่สร้างด้วย Tableau
 ![clv_dashboard](./images/clv_dashboard.png)
