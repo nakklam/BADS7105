@@ -1,7 +1,7 @@
 # Homework 08 - Campaign Response Model
 
 ## รายละเอียด
-งานนี้จะเป็นการนำเอาข้อทูลการซื้อสินค้าในแต่ละครั้งของลูกค้า และข้อมูลการตอบรับ Campaign ของลูกค้ามาทำการสร้าง Model เพื่อที่จะทำนายว่าลูกค้าจะทำการตอบรับ Campaign ที่บริษัทมีการจัดส่งให้หรือไม่
+งานนี้จะเป็นการนำเอาข้อมูลการซื้อสินค้าในแต่ละครั้งของลูกค้า และข้อมูลการตอบรับ Campaign ของลูกค้ามาทำการสร้าง Model เพื่อที่จะทำนายว่าลูกค้าจะทำการตอบรับ Campaign ที่บริษัทมีการจัดส่งให้หรือไม่
 ในการสร้าง Model จะใช้กระบวนการ Feature Engineering ซึ่งเป็นหา Feature ใหม่ๆ ขึ้นมาเพื่อช่วยทำให้ Model มีการเรียนรู้ได้ดีมากขึ้น โดย Feature ที่สร้างขึ้นมาใหม่นั้นจะใช้ความรู้เรื่อง RFM มาใช้
 
 RFM คือ
@@ -18,7 +18,7 @@ c) Monetary : มูลค่าในการซื้อสินค้่า
 
 ## วิดีโออธิบายการทำงานของ Campaign Response Model
 ได้เลือกงานนี้เพื่อทำเป็นวิดีโออธิบายการทำงาน สำหรับวิดีโอสามารถเข้าไปดูได้ที่ลิงค์ข้างล่าง
-[![Campaign Response Model](http://https://img.youtube.com/vi/VRvBBBdR_Yg/0.jpg)]
+![Campaign Response Model](http://https://img.youtube.com/vi/VRvBBBdR_Yg/0.jpg)]
 (http://www.youtube.com/watch?v=VRvBBBdR_Yg "Campaign Response Model")
 
 ## 1. ลักษณะของข้อมูลที่ใช้ในการสร้าง Model
